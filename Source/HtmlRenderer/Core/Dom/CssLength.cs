@@ -205,7 +205,7 @@ namespace TheArtOfDev.HtmlRenderer.Core.Dom
             }
             else if (IsPercentage)
             {
-                return string.Format(NumberFormatInfo.InvariantInfo, "{0}%", Number);
+                return string.Format(NumberFormatInfo.InvariantInfo, "{0}%", Number*100);
             }
             else
             {
